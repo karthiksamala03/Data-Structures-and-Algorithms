@@ -1,7 +1,10 @@
+## Ternary Search with iterative method
+
+## Function Definition
 def ternary_search(arr, key):
     left, right = 0, len(arr)
 
-    while(left <= right):
+    while left <= right:
         mid1 = left + (right - left)//2
         mid2 = right - (right - left)//2
 
@@ -18,7 +21,9 @@ def ternary_search(arr, key):
             right = mid2 - 1
     return -1
 
+
 arr = [2, 4, 6, 8, 10]
 key = 10
+## Function Calling
 result = ternary_search(arr, key)
 print(result)
