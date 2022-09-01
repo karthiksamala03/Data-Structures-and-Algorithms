@@ -3,7 +3,7 @@ def ternary_search(arr, key):
 
     while(left <= right):
         mid1 = left + (right - left)//2
-        mid2 = right - (left - right)//2
+        mid2 = right - (right - left)//2
 
         if key == arr[mid1]:
             return mid1
@@ -19,6 +19,6 @@ def ternary_search(arr, key):
     return -1
 
 arr = [2, 4, 6, 8, 10]
-key = 6
+key = 10
 result = ternary_search(arr, key)
 print(result)
