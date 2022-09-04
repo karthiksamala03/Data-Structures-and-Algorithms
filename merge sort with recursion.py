@@ -1,3 +1,6 @@
+## Merge sort
+## Time Complexity :- T(n) = 2T(n/2) + O(n)
+
 def mergeprocedure(arr, L, R):
     i = j = k = 0
 
