@@ -5,7 +5,7 @@
 def selectionSort(arr):
     n = len(arr)
     for i in range(n):
-        ## to store the index value minimum value
+        ## to store the index of minimum value
         min_idx = i
         for j in range(i+1, n):
             if arr[j] < arr[min_idx]:
