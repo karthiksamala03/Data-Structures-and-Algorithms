@@ -13,6 +13,9 @@ Searching Techniques
 3. Ternary search
 
 Interview Questions
-1. Search in sorted 2D array
-2. k closest points
-3. Top k frequent elements
+1. Best Time to Buy and Sell Stocks
+2. Finding of Maxima and Minima using Divide and Conquer
+3. Finding of power of an element
+4. k closest points
+5. Search in sorted 2D array
+6. Top k frequent elements
